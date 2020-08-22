@@ -1,0 +1,226 @@
+/* Main stylesheet  index.css */
+
+
+/* Responsive web design for mobile */
+@media all and (max-width: 600px) {
+  body {
+    background-color:purple;
+  }
+  .container {
+   background-color: orange;
+  width: 310px;
+}
+  #title {
+  position: relative;
+  margin-top: 10px;
+    margin-left: 20px;
+  font-family: "Goudy Old Style", serif;
+  color: indigo;
+  text-shadow: 1.5px 1.0px #00000F;
+}
+  #description {
+    position: relative;
+    left: 10px;
+    margin-right: 26px;
+  }
+  #survey-box {
+    position: relative;
+    left: 10px;
+    margin-right: 10px;
+  }
+  .form-cont {
+    postiion: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  #number {
+    width: 170px;
+  }
+  #radio-cont {
+    position: relative;
+    margin-top:2px;
+    margin-bottom:10px;
+  }
+  #dropdown {
+    position: relative;
+    margin-top:2px;
+    margin-bottom:10px;
+    width: 290px;
+  }
+  #best-energy {
+    background-color: cyan;
+    position: relative;
+    margin-right: 15px;
+  }
+  #worst-energy {
+    background-color: pink;
+    position: relative;
+    margin-right: 15px;
+  }
+  #additional {
+    height:70px;
+    width:280px;
+  }
+  #submit-div {
+    display:block;
+    margin: 20px 20px 20px auto;
+    padding: 25px;
+    background-color:green;
+  }
+  #submit {
+    color: black;
+    width: 230px;
+    height: 40px;
+  }
+}
+
+/* Reponsive web design for Ipad */
+@media all and (min-width: 600px) and (max-width: 950px){
+  body {
+    background-color: purple;
+  }
+.container {
+background-color: orange;
+ width: 810px;
+  margin-left:5px;
+}
+  #title {
+  position: relative;
+  margin-top: 10px;
+    margin-left: 20px;
+  font-family: "Goudy Old Style", serif;
+  color: indigo;
+  text-shadow: 1.5px 1.0px #00000F;
+}
+  #description {
+    position: relative;
+    left: 10px;
+    margin-right: 250px;
+  }
+  #survey-box {
+    position: relative;
+    left: 10px;
+  }
+  .form-cont {
+    postiion: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  #number {
+    width: 170px;
+  }
+  #radio-cont {
+    position: relative;
+    margin-top:2px;
+    margin-bottom:10px;
+  }
+  #dropdown {
+    position: relative;
+    margin-top:2px;
+    margin-bottom:10px;
+  }
+  #best-energy {
+    background-color: cyan;
+    position: relative;
+    margin-right: 450px;
+  }
+  #worst-energy {
+    background-color: pink;
+    position: relative;
+    margin-right: 450px;
+  }
+  #additional {
+    height:70px;
+    width:280px;
+  }
+  #submit-div {
+    display:relative;
+    margin: 0px 525px 20px 3px;
+    padding: 10px;
+    background-color:green;
+  }
+  #submit {
+    color: black;
+    position: relative;
+    left: 20px;
+    right: 250px;
+    width: 230px;
+    height: 40px;
+  }
+}
+
+@media all and (min-width: 950px) {
+  body {
+    background-color: purple;
+  }
+  .container {
+background-color: orange;
+ width: device-width;
+} 
+  #title {
+  position: relative;
+  margin-top: 10px;
+  font-family: "Goudy Old Style", serif;
+  color: indigo;
+  text-shadow: 1.5px 1.0px #00000F;
+}
+  #description {
+    position: relative;
+    left: 10px;
+    margin-right: 1200px;
+  }
+  #survey-box {
+    position: relative;
+    left: 10px;
+  }
+  .form-cont {
+    postiion: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  #number {
+    width: 170px;
+  }
+  #radio-cont {
+    position: relative;
+    margin-top:2px;
+    margin-bottom:10px;
+  }
+  #dropdown {
+    position: relative;
+    margin-top:2px;
+    margin-bottom:10px;
+  }
+  #best-energy {
+    background-color: cyan;
+    position: relative;
+    margin-right: 1500px;
+  }
+  #worst-energy {
+    background-color: pink;
+    position: relative;
+    margin-right: 1500px;
+  }
+  #additional {
+    height:70px;
+    width:280px;
+  }
+  #submit-div {
+    display:relative;
+    margin: 0px 1600px 20px 2px;
+    padding: 10px;
+    background-color:green;
+  }
+  #submit {
+    color: black;
+    position: relative;
+    left: 20px;
+    right: 250px;
+    width: 230px;
+    height: 40px;
+  }
+}

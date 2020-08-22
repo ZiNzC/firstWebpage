@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Enegetic Future Survey</title>
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://codepen.io/zinzc/pen/OJNbZwY.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Homepage index.html -->
+
+<main class="container" id="main">
+  <heading><h1 id="title"> Energetic Future Survey Form </h1></heading>
+  <hr>
+  <p id="description">Already right now, we need to change the way we use our resources and where we get our energy from. Are you interested in the enviroment? Take this short survey and help us learn more about people's mentality around energy types.</p>
+ 
+  
+  <!-- Form section -->
+ <div id="survey-box">
+    <form id="survey-form">
+      <label id="name-label" for="name"><b>Name</b></label>
+    <br>
+    <input id="name" type="text" class="form-cont" placeholder="Enter your name" required>
+      <br>
+     <label id="email-label" for="email"><b>E-mail</b></label>
+    <br>
+     <input id="email" type="email" class="form-cont" placeholder="Enter your e-mail" required>
+    <br>
+      <label id="number-label" for="number"><b>Age</b></label>
+     <br>
+      <input id="number" type="number" class="form-cont" placeholder="Select your age" min="0" max="99" required>
+      <br>
+      <label id="gender"><b>Gender</b></label>
+      <br>
+      <div id="radio-cont">
+      <label><input type="radio" name="gender" value="male">Male</label>
+      <label><input type="radio" name="gender" value="female">Female</label>
+      <label><input type="radio" name="gender" value="other">Other</label>
+      </div>
+      
+      <label id="cat"><b>Which energy cathegory do you believe the most in?</b></label>
+      <br>
+      <select id="dropdown">
+        <option disabled selected value>Which energy cathegory do you believe the most in?</option>
+        <option>Renewable Energy</option>
+        <option>Fossil Fuels</option>
+        <option>Alternate (nuclear/chemical)</option>
+      </select>
+      
+      <br><br>
+      
+      <div id="best-energy">
+      <label><b>What are the three best Energy sources?</b></label> 
+        <br>
+      <label><input type="checkbox" value="wind">Wind</label>
+      <label><input type="checkbox" value="solar">Solar</label>
+      <label><input type="checkbox" value="geothermal">Geothermal</label>
+      <label><input type="checkbox" value=="water">Water</label>
+      <br>
+      <label><input type="checkbox" value="nuclear">Nuclear</label>
+      <label><input type="checkbox" value="fossil">Fossil</label>
+      <label><input type="checkbox" value="biomasses">Biomasses</label>
+      <label><input type="checkbox" value="tidal">Tidal</label>
+      <label><input type="checkbox" value="other">Other</label>
+      </div>
+    
+      <br>
+      
+      <div id="worst-energy">
+      <label><b>What are the three worst Energy sources?</b></label> 
+      <br>
+      <label><input type="checkbox" value="wind">Wind</label>
+      <label><input type="checkbox" value="solar">Solar</label>
+      <label><input type="checkbox" value="geothermal">Geothermal</label>
+      <label><input type="checkbox" value="water">Water</label>
+      <br>
+      <label><input type="checkbox" value="nuclear">Nuclear</label>
+      <label><input type="checkbox" value="fossil">Fossil</label>
+      <label><input type="checkbox" value="biomasses">Biomasses</label>
+      <label><input type="checkbox" value="tidal">Tidal</label>
+      <label><input type="checkbox" value="other">Other</label>
+      </div>
+      
+      <br>
+      
+      <label><b>Additional Comments or Suggestions?</b></label>
+      <br>
+      <textarea id="additional" type="text" placeholder="Enter your comments and suggestions here"></textarea>
+      
+      <div id="submit-div"><button type="submit" id="submit">Submit</button></div> 
+  </form>
+  </div>
+  
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- partial -->
+  
+</body>
+</html>
